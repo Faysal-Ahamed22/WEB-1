@@ -1,0 +1,175 @@
+#div1{
+    #table1{
+          background-color: #1fd3b4;
+    border: 2px solid #ffffff;
+    width: 100%;
+        height: 15vh; 
+        th{
+            width: 33%;
+        }
+        #im{
+            text-align: left; 
+            
+        }
+    }
+
+  
+
+}
+
+#table3
+{
+    width: 100%;
+    height: 64vh; 
+    border: 2px solid #ffffff;
+    th{
+        width: 50%;
+    }
+    #sample_text{
+        font-weight: 400;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+   
+}
+
+
+#table2{
+    text-align: center;
+    width: 100%;
+        height: 10vh; 
+        border-collapse: collapse;
+        border: 2px solid #ffffff;
+      
+        background-color:  #883fa1;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+   
+}
+
+.input {
+    text-align: center;
+    margin-top: 5vh;
+    transform: translateY(-50%);
+}
+
+.container {
+    background-color: #fff;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+   margin: auto;
+}
+
+
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#password {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#table4{
+    width: 100%;
+    height: 60vh; 
+   #h{
+        background-color: green;
+    }
+    #h2
+    {
+        background-color: red;
+    }
+}
+
+#sing
+{
+    width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+
+}
+
+#newstable{
+    
+    width: 60%;
+    height: 60vh; 
+    margin: auto;
+    background-color: #fff7f1;
+
+    td {
+        border: 1px solid #dddddd;
+        width: 33.33%; /* Each cell occupies 1/3 of the table width */
+        height: 100px; /* Adjust the height of the cells as needed */
+        text-align: center;
+        vertical-align: middle;
+        padding: 0;
+    }
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        margin: auto;
+        border-radius: 40%;
+    }
+}
+
+#imagetable{
+
+    width: 100%;
+    height: 65vh; 
+    margin: auto;
+    margin-top: 1%;
+    td {
+        
+        
+            width: 25%; 
+            height: 150px; 
+            text-align: center;
+            vertical-align: middle;
+            padding: 0;
+    }
+    img {
+        max-width: 145%;
+        max-height: 145%;
+        object-fit: cover;
+        #cm{
+        max-width: 160%;
+        max-height: 150%;
+        object-fit: cover;
+    }
+    }
+   
+
+}
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="div1">
+    <table id="table1" border="2">
+        <th id="im"><img src="image.png" height="90" style="border-radius: 50%;"></th>
+        <th><h2 style="text-align: center; color: white;" > MY WEBSITE</h2></th>
+        <th>
+            <div class="search-bar">
+                <form action="#">
+                  <input type="text" placeholder="Search">
+                  <button type="submit">Search</button>
+                </form>
+              </div>
+        </th>
+    </table>
+</div>
+<div id="div2">
+    <table id="table2" border="2" >
+        <th /><a href="index.html">HOME</a></th>
+        <th><a href="Form.html">FORM</a></th>
+        <th><a href="Table.html">TABLE</a></th>
+        <th><a href="Newsportal.html">NEWSPORTAL</a></th>
+        <th><a href="Image.html">IMAGE</a></th>
+        <th><a href="Contact.html">CONTACT</a></th>
+    </table>
+</div>
+
+<div id="sing">
+<form action="submit_form.php" method="post">
+    <label for="first_name">First Name:</label><br>
+    <input type="text" id="first_name" name="first_name" required><br><br>
+    
+    <label for="last_name">Last Name:</label><br>
+    <input type="text" id="last_name" name="last_name" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select><br><br>
+    
+    <label for="division">Division:</label><br>
+    <input type="text" id="division" name="division" required><br><br>
+    
+    <input type="submit" value="Submit">
+</form>
+</div>
+
+    
+</body>
+</html>
